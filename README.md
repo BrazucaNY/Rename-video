@@ -1,40 +1,36 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Setup Instructions</title>
-</head>
-<body>
-    <h1>FOLLOW THE INSTRUCTIONS TO MAKE SURE YOU HAVE WHAT YOU NEED TO RUN THE CODE!</h1>
-    
-    <h2>Step 1: Install Python</h2>
-    <p>Download and Install Python:</p>
-    <ul>
-        <li>Go to the official Python website: 
-            <a href="https://www.python.org/downloads/" target="_blank">https://www.python.org/downloads/</a>
-        </li>
-        <li>Download the latest version of Python.</li>
-        <li>Run the installer and make sure to check the box that says "<strong>Add Python to PATH</strong>".</li>
-    </ul>
-    
-    <h2>Step 2: Install Required Software</h2>
-    <p>Watch this video to learn how to install the required software: 
-        <a href="https://youtu.be/osZ3cB6mS0o" target="_blank">https://youtu.be/osZ3cB6mS0o</a>
-    </p>
-    
-    <h3>Install ffmpeg:</h3>
-    <ul>
-        <li>Windows:
-            <ul>
-                <li>Go to the ffmpeg download page: 
-                    <a href="https://ffmpeg.org/download.html" target="_blank">https://ffmpeg.org/download.html</a>
-                </li>
-                <li>Download ffmpeg from ffmpeg.org.</li>
-                <li>Extract the downloaded file and move the bin folder to a location of your choice.</li>
-                <li>Add the path to the bin folder to your system's PATH environment variable.</li>
-            </ul>
-        </li>
-    </ul>
-</body>
-</html>
+# Como instalar o video RENAME no seu PC
+
+## Siga as instruções abaixo para garantir que você tem tudo o que precisa para executar o código!
+
+Este guia fornece instruções passo a passo para ajudá-lo a instalar Python e ffmpeg no seu sistema. Por favor, siga cada etapa cuidadosamente.
+
+## Etapa 1: Instalar Python
+
+Baixe e instale Python:
+
+1. Vá para o site oficial do Python: 
+   [https://www.python.org/downloads/](https://www.python.org/downloads/)
+2. Baixe a versão mais recente do Python.
+3. Execute o instalador e certifique-se de marcar a caixa que diz **"Add Python to PATH"**.
+
+## Etapa 2: Instalar Software Requerido
+
+### Instalar ffmpeg
+
+#### Windows:
+Assista a este vídeo para aprender como instalar o software necessário: 
+[Como instalar o software necessário](https://youtu.be/osZ3cB6mS0o)
+
+1. Vá para a página de download do ffmpeg: 
+   [https://ffmpeg.org/download.html](https://ffmpeg.org/download.html)
+2. Baixe o ffmpeg do site ffmpeg.org.
+3. Extraia o arquivo baixado e mova a pasta `bin` para um local de sua escolha.
+4. Adicione o caminho para a pasta `bin` na variável de ambiente PATH do seu sistema.
+
+## Precisa de mais ajuda?
+
+Se você encontrar algum problema ou precisar de mais assistência, sinta-se à vontade para enviar uma issue usando a aba de issues acima. Agradecemos qualquer feedback ou contribuição!
+
+## Gostou deste guia?
+
+Se você achou este guia útil, considere me pagar um café! - [Compre-me um café](https://www.buymeacoffee.com/yourusername)
