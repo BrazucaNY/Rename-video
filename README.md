@@ -33,4 +33,4 @@ Se você encontrar algum problema ou precisar de mais assistência, sinta-se à 
 
 ## Gostou deste guia?
 
-Se você achou este guia útil, considere me pagar um café! - [Compre-me um café](https://www.buymeacoffee.com/yourusername)
+Se você achou este guia útil, considere me pagar um café! - [Compre-me um café](https://buymeacoffee.com/fishingdreams)
