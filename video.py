@@ -1,3 +1,7 @@
+#MADE IN BRAZUCANY
+#AQUI MEU YOU TUBE = https://www.youtube.com/channel/UCa2pvMyLz1LNIDy2qvlV2kw
+#POR TER MUITOS ARQUIVOS DE VIDEO E SOMENTE PODENDO EDITAR ELES SEMANAS DEPOIS ESTE ARQUIVO FOI CRIADO. 
+
 import os
 import subprocess
 import json
