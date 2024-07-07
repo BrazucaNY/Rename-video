@@ -1,6 +1,6 @@
-# Como instalar o video RENAME no seu PC
+# Como instalar o video RENAME VIDEO no seu PC
 
-## Siga as instruções abaixo para garantir que você tem tudo o que precisa para executar o código!
+## ## O script examina o vídeo, seja ele qual for, e renomeia pelo horário que foi gerado. Se você tiver 50 arquivos de vídeo e não sabe qual é o primeiro, este script em Python faz isso. Ele examina qual foi o primeiro ## vídeo e, em seguida, renomeia-o para video_01, e assim por diante até o último vídeo gravado.
 
 Este guia fornece instruções passo a passo para ajudá-lo a instalar Python e ffmpeg no seu sistema. Por favor, siga cada etapa cuidadosamente.
 
