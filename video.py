@@ -1,6 +1,6 @@
-#MADE IN BRAZUCANY
-#AQUI MEU YOU TUBE = https://www.youtube.com/channel/UCa2pvMyLz1LNIDy2qvlV2kw
-#POR TER MUITOS ARQUIVOS DE VIDEO E SOMENTE PODENDO EDITAR ELES SEMANAS DEPOIS ESTE ARQUIVO FOI CRIADO. 
+# MADE IN BRAZUCANY
+# AQUI MEU YOU TUBE = https://www.youtube.com/channel/UCa2pvMyLz1LNIDy2qvlV2kw
+# POR TER MUITOS ARQUIVOS DE VIDEO E SOMENTE PODENDO EDITAR ELES SEMANAS DEPOIS ESTE ARQUIVO FOI CRIADO. 
 
 import os
 import subprocess
@@ -8,8 +8,10 @@ import json
 from datetime import datetime
 import logging
 
+# Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
+# Get the creation time of the video file
 def get_creation_time(video_file):
     try:
         result = subprocess.run(
@@ -29,6 +31,7 @@ def get_creation_time(video_file):
         logging.error(f"Error occurred while getting creation time for {video_file}: {e}")
         return None
 
+# Get the size of the video file
 def get_file_size(video_file):
     try:
         size = os.path.getsize(video_file)
@@ -37,6 +40,7 @@ def get_file_size(video_file):
         logging.error(f"Error occurred while getting file size for {video_file}: {e}")
         return -1
 
+# List all video files in the directory
 def list_video_files(directory):
     video_extensions = ['.mp4', '.avi', '.mov', '.mkv']
     video_files = []
@@ -50,6 +54,7 @@ def list_video_files(directory):
         logging.error(f"Error occurred while listing files in {directory}: {e}")
     return video_files
 
+# Process each video file to get its metadata
 def process_files(directory):
     video_files = list_video_files(directory)
     file_info = []
@@ -67,6 +72,7 @@ def process_files(directory):
             logging.warning(f"Skipping file {video_file} due to missing creation time.")
     return file_info
 
+# Rename files in order based on creation time and size
 def rename_files_in_order(file_info):
     file_info.sort(key=lambda x: (x[1], x[2]))  # Sort files based on creation time and file size
     existing_names = set()
@@ -92,6 +98,7 @@ def rename_files_in_order(file_info):
         except Exception as e:
             logging.error(f"Failed to rename {file_path} to {new_name}: {e}")
 
+# Main function to execute the script
 def main(directory):
     logging.info(f"Processing video files in directory: {directory}")
     file_info = process_files(directory)
